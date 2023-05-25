@@ -1,11 +1,12 @@
 #ifndef MONTY_H
 #define MONTY_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
-#include <unistd.h>
 #include <fcntl.h>
 #include <string.h>
+#include <unistd.h>
 #include <ctype.h>
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
@@ -23,7 +24,7 @@ typedef struct stack_s
 	struct stack_s *next;
 } stack_t;
 /**
- * struct bus_s - variables -args, file, line content
+ * struct bus_s - entry
  * @arg: value
  * @file: pointer to monty file
  * @content: line content
@@ -58,22 +59,21 @@ void f_push(stack_t **head, unsigned int num);
 void f_pall(stack_t **head, unsigned int num);
 void f_pint(stack_t **head, unsigned int num);
 int execute(char *con, stack_t **head, unsigned int num, FILE *file);
-void free_stack(stack_t *head);
-void f_pop(stack_t **head, unsigned int num);
-void f_swap(stack_t **head, unsigned int num);
 void f_add(stack_t **head, unsigned int num);
+void f_pstr(stack_t **head, unsigned int num);
+void f_rotl(stack_t **head, unsigned int num);
 void f_nop(stack_t **head, unsigned int num);
 void f_sub(stack_t **head, unsigned int num);
 void f_div(stack_t **head, unsigned int num);
 void f_mul(stack_t **head, unsigned int num);
 void f_mod(stack_t **head, unsigned int num);
 void f_pchar(stack_t **head, unsigned int num);
-void f_pstr(stack_t **head, unsigned int num);
-void f_rotl(stack_t **head, unsigned int num);
 void f_rotr(stack_t **head, __attribute__((unused)) unsigned int num);
+void free_stack(stack_t *head);
+void f_pop(stack_t **head, unsigned int num);
+void f_swap(stack_t **head, unsigned int num);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void f_queue(stack_t **head, unsigned int num);
 void f_stack(stack_t **head, unsigned int num);
 #endif
-
