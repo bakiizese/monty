@@ -54,9 +54,9 @@ typedef struct instruction_s
 char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 ssize_t getstdin(char **lineptr, int file);
 char  *clean_line(char *con);
-void push(stack_t **head, unsigned int nums);
-void pall(stack_t **head, unsigned int nums);
-void pint(stack_t **head, unsigned int nums);
+void push(stack_t **head, unsigned int num);
+void pall(stack_t **head, unsigned int num);
+void pint(stack_t **head, unsigned int num);
 int execute(char *con, stack_t **head, unsigned int num, FILE *file);
 void free_stack(stack_t *head);
 void pop(stack_t **head, unsigned int num);
@@ -73,7 +73,7 @@ void rotl(stack_t **head, unsigned int num);
 void rotr(stack_t **head, __attribute__((unused)) unsigned int num);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
-void f_queue(stack_t **head, unsigned int num);
-void f_stack(stack_t **head, unsigned int num);
+void queue(stack_t **head, unsigned int num);
+void stack(stack_t **head, unsigned int num);
 #endif
 
