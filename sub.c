@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * sub - entry
+ * f_sub - entry
  * @head: struct
  * @num: var
  */
-void sub(stack_t **head, unsigned int num)
+void f_sub(stack_t **head, unsigned int num)
 {
 	stack_t *x;
 	int s;
@@ -13,7 +13,7 @@ void sub(stack_t **head, unsigned int num)
 	x = *head;
 	for (j = 0; x != NULL; j++)
 		x = x->next;
-	if (nodes < 2)
+	if (j < 2)
 	{
 		fprintf(stderr, "L%d: can't sub, stack too short\n", num);
 		fclose(bus.file);

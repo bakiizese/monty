@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * pint - entry
+ * f_pint - entry
  * @head: struct
  * @num: var
 */
-void pint(stack_t **head, unsigned int num)
+void f_pint(stack_t **head, unsigned int num)
 {
 	if (*head == NULL)
 	{

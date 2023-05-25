@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * pstr - entry
+ * f_pstr - entry
  * @head: struct
  * @num: var
 */
-void pstr(stack_t **head, unsigned int num)
+void f_pstr(stack_t **head, unsigned int num)
 {
 	stack_t *h;
 

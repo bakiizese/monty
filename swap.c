@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * swap - entry
+ * f_swap - entry
  * @head: struct
  * @num: var
 */
-void swap(stack_t **head, unsigned int num)
+void f_swap(stack_t **head, unsigned int num)
 {
 	stack_t *h;
 	int l = 0;

@@ -11,7 +11,7 @@ void addnode(stack_t **head, int n)
 	stack_t *h;
 
 	h = *head;
-	node = malloc(sizeof(stack_t));
+	new = malloc(sizeof(stack_t));
 	if (new == NULL)
 	{
 		printf("Error\n");

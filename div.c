@@ -5,7 +5,7 @@
  * @num: var
  * Return: no return
 */
-void div(stack_t **head, unsigned int num)
+void f_div(stack_t **head, unsigned int num)
 {
 	stack_t *h;
 	int l = 0;

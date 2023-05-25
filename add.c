@@ -4,7 +4,7 @@
  * @head: struct
  * @num: var
 */
-void add(stack_t **head, unsigned int num)
+void f_add(stack_t **head, unsigned int num)
 {
 	stack_t *h;
 	int l = 0;
@@ -25,7 +25,7 @@ void add(stack_t **head, unsigned int num)
 		exit(EXIT_FAILURE);
 	}
 	h = *head;
-	aux = h->n + h->next->n;
+	x = h->n + h->next->n;
 	h->next->n = x;
 	*head = h->next;
 	free(h);

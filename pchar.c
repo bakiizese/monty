@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * pchar - entry
+ * f_pchar - entry
  * @head: struct
  * @num: var
 */
-void pchar(stack_t **head, unsigned int num)
+void f_pchar(stack_t **head, unsigned int num)
 {
 	stack_t *h;
 

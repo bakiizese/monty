@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * push - entry
+ * f_push - entry
  * @head: struct
  * @num: var
 */
-void push(stack_t **head, unsigned int num)
+void f_push(stack_t **head, unsigned int num)
 {
 	int n;
 	int f = 0;

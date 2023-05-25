@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * pop - entry
+ * f_pop - entry
  * @head: struct
  * @num: var
 */
-void pop(stack_t **head, unsigned int num)
+void f_pop(stack_t **head, unsigned int num)
 {
 	stack_t *h;
 

@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * mul - entry.
+ * f_mul - entry.
  * @head: struct
  * @num: var
 */
-void mul(stack_t **head, unsigned int num)
+void f_mul(stack_t **head, unsigned int num)
 {
 	stack_t *h;
 	int l = 0;

@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
-  *rotl- entry
-  *@head: struct
-  *@num: var
+ * f_rotl- entry
+ * @head: struct
+ * @num: var
  */
-void rotl(stack_t **head,  __attribute__((unused)) unsigned int num)
+void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int num)
 {
 	stack_t *t = *head;
 	stack_t *x;

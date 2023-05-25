@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * queue - entry
+ * f_queue - entry
  * @head: struct
  * @num: var
 */
-void queue(stack_t **head, unsigned int num)
+void f_queue(stack_t **head, unsigned int num)
 {
 	(void)head;
 	(void)num;

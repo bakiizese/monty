@@ -1,4 +1,5 @@
 #include "monty.h"
+bus_t bus = {NULL, NULL, NULL, 0};
 /**
 * main - entry
 * @argc: count var
@@ -7,7 +8,6 @@
 */
 int main(int argc, char *argv[])
 {
-	bus_t bus = {NULL, NULL, NULL, 0};
 	char *con;
 	FILE *file;
 	unsigned int num;

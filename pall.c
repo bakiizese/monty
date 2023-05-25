@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * pall - entry
+ * f_pall - entry
  * @head: struct
  * @num: var
 */
-void pall(stack_t **head, unsigned int num)
+void f_pall(stack_t **head, unsigned int num)
 {
 	stack_t *h;
 

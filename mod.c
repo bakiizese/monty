@@ -4,7 +4,7 @@
  * @head: struct
  * @num: var
 */
-void mod(stack_t **head, unsigned int num)
+void f_mod(stack_t **head, unsigned int num)
 {
 	stack_t *h;
 	int l = 0;

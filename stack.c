@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * stack - entry
+ * f_stack - entry
  * @head: struct
  * @num: var
 */
-void stack(stack_t **head, unsigned int num)
+void f_stack(stack_t **head, unsigned int num)
 {
 	(void)head;
 	(void)num;

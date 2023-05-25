@@ -1,14 +1,14 @@
 #include "monty.h"
 /**
-  *rotr- entry
-  *@head: struct
-  *@num: var
+ * f_rotr - entry
+ * @head: struct
+ * @num: var
  */
-void rotr(stack_t **head, __attribute__((unused)) unsigned int num)
+void f_rotr(stack_t **head, __attribute__((unused)) unsigned int num)
 {
 	stack_t *cp;
 
-	copy = *head;
+	cp = *head;
 	if (*head == NULL || (*head)->next == NULL)
 	{
 		return;
