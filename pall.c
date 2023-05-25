@@ -1,14 +1,14 @@
 #include "monty.h"
 /**
- * f_pall - prints the stack
- * @head: stack head
- * @counter: no used
- * Return: no return
+ * pall - entry
+ * @head: struct
+ * @num: var
 */
-void f_pall(stack_t **head, unsigned int counter)
+void pall(stack_t **head, unsigned int num)
 {
 	stack_t *h;
-	(void)counter;
+
+	(void)num;
 
 	h = *head;
 	if (h == NULL)
@@ -19,4 +19,3 @@ void f_pall(stack_t **head, unsigned int counter)
 		h = h->next;
 	}
 }
-
