@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	{
 		con = NULL;
 		r_line = getline(&con, &s, file);
-		bus.con = con;
+		bus.cont = con;
 		num++;
 		if (r_line > 0)
 		{
